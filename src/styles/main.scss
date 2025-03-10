@@ -9,7 +9,7 @@
 @forward "./base/amination";
 
 // components
-// @forward "./components/";
+@forward "./components/input.scss";
 
 // layouts
 // @forward "./layouts/"
@@ -18,4 +18,6 @@
 // @forward "./pages/"
 
 // themes
-// @forward "./themes/"
+@forward "./themes/darkMode";
+@forward "./themes/classic";
+@forward "./themes/other";

@@ -1,5 +1,10 @@
+import { useState } from "react";
+import Input from "./components/ui/Input";
+
 function App() {
-  return <div>App</div>;
+  const [input, setInput] = useState("");
+
+  return <div className=""></div>;
 }
 
 export default App;

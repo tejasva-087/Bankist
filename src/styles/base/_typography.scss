@@ -1,0 +1,43 @@
+@use "../abstracts/variables" as *;
+
+.heading {
+  &-primary,
+  &-secondary,
+  &-tertiary {
+    color: var(--color-black-primary);
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  &-primary {
+    font-size: $heading-primary;
+  }
+
+  &-secondary {
+    font-size: $heading-secondary;
+  }
+
+  &-tertiary {
+    font-size: $heading-tertiary;
+  }
+}
+
+.text {
+  &-primary {
+    font-size: $text-primary;
+  }
+
+  &-secondary {
+    font-size: $text-secondary;
+  }
+}
+
+.font {
+  &-bold {
+    font-weight: 400;
+  }
+
+  &-light {
+    font-weight: 500;
+  }
+}

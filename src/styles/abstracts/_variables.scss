@@ -1,0 +1,39 @@
+@use "sass:color";
+
+$color-black-primary: #1e1e1e;
+$color-black-secondary: #393939;
+$color-black-tertiary: #545454;
+
+$color-white-primary: #ffffff;
+$color-white-secondary: #f0f0f0;
+$color-white-tertiary: #e0e0e0;
+
+$color-primary: #e62f5b;
+$color-secondary: #45b682;
+$color-tertiary: #feb405;
+
+:root {
+  --color-black-primary: #{$color-black-primary};
+  --color-black-secondary: #{$color-black-secondary};
+  --color-black-tertiary: #{$color-black-tertiary};
+
+  --color-white-primary: #{$color-white-primary};
+  --color-white-secondary: #{$color-white-secondary};
+  --color-white-tertiary: #{$color-white-tertiary};
+
+  --color-primary: #e62f5b;
+  --color-secondary: #45b682;
+  --color-tertiary: #feb405;
+}
+
+// font size
+$heading-primary: 5.5rem;
+$heading-secondary: 4rem;
+$heading-tertiary: 2.4rem;
+
+$text-primary: 1.8rem;
+$text-secondary: 1.6rem;
+$text-tertiary: 1.4rem;
+
+// font family
+$font-family: "Poppins", sans-serif;

@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $text-secondary;
+  font-family: $font-family;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-black-secondary);
+  background-color: var(--color-white-secondary);
+}
+
+li {
+  list-style: none;
+}
